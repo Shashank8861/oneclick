@@ -64,7 +64,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'TravelBuddy',
+      title: 'ONE CLICK',
       localizationsDelegates: [
         FFLocalizationsDelegate(),
         GlobalMaterialLocalizations.delegate,
@@ -115,9 +115,9 @@ class _NavBarPageState extends State<NavBarPage> {
   Widget build(BuildContext context) {
     final tabs = {
       'homePage': HomePageWidget(),
-      'explore': ExploreWidget(),
-      'collab': CollabWidget(),
-      'ecommerce': EcommerceWidget(),
+      // 'explore': ExploreWidget(),
+      // 'collab': CollabWidget(),
+      // 'ecommerce': EcommerceWidget(),
       'profilePage': ProfilePageWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPage);
@@ -141,34 +141,34 @@ class _NavBarPageState extends State<NavBarPage> {
             label: 'Home',
             tooltip: '',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.explore,
-              size: 24,
-            ),
-            label: 'Explore',
-            tooltip: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.group_add_outlined,
-              size: 24,
-            ),
-            activeIcon: Icon(
-              Icons.group_add,
-              size: 24,
-            ),
-            label: 'Collab',
-            tooltip: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.shopping_cart_outlined,
-              size: 24,
-            ),
-            label: 'Shop',
-            tooltip: '',
-          ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(
+          //     Icons.explore,
+          //     size: 24,
+          //   ),
+          //   label: 'Explore',
+          //   tooltip: '',
+          // ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(
+          //     Icons.group_add_outlined,
+          //     size: 24,
+          //   ),
+          //   activeIcon: Icon(
+          //     Icons.group_add,
+          //     size: 24,
+          //   ),
+          //   label: 'Collab',
+          //   tooltip: '',
+          // ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(
+          //     Icons.shopping_cart_outlined,
+          //     size: 24,
+          //   ),
+          //   label: 'Shop',
+          //   tooltip: '',
+          // ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.account_circle_outlined,

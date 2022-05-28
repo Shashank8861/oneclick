@@ -67,7 +67,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
         iconTheme: IconThemeData(color: Color(0xFF1D0E89)),
         automaticallyImplyLeading: true,
         title: Text(
-          'TravelBuddy',
+          'ONE CLICK',
           style: FlutterFlowTheme.of(context).bodyText1.override(
                 fontFamily: 'Lexend Deca',
                 color: Colors.black,
@@ -126,196 +126,196 @@ class _HomePageWidgetState extends State<HomePageWidget>
           size: 24,
         ),
       ),
-      drawer: Drawer(
-        elevation: 16,
-        child: Column(
-          mainAxisSize: MainAxisSize.max,
-          children: [
-            Container(
-              width: 100,
-              height: 100,
-              decoration: BoxDecoration(
-                color: Color(0xFFEEEEEE),
-              ),
-            ),
-            FFButtonWidget(
-              onPressed: () async {
-                await Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => ListofplacesWidget(),
-                  ),
-                );
-              },
-              text: 'Show Places',
-              options: FFButtonOptions(
-                width: 130,
-                height: 40,
-                color: FlutterFlowTheme.of(context).primaryColor,
-                textStyle: FlutterFlowTheme.of(context).subtitle2.override(
-                      fontFamily: 'Lexend Deca',
-                      color: Colors.white,
-                    ),
-                borderSide: BorderSide(
-                  color: Colors.transparent,
-                  width: 1,
-                ),
-                borderRadius: 12,
-              ),
-            ),
-            FFButtonWidget(
-              onPressed: () async {
-                await Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => CreaterecordWidget(),
-                  ),
-                );
-              },
-              text: 'Crate a Place',
-              options: FFButtonOptions(
-                width: 130,
-                height: 40,
-                color: FlutterFlowTheme.of(context).primaryColor,
-                textStyle: FlutterFlowTheme.of(context).subtitle2.override(
-                      fontFamily: 'Lexend Deca',
-                      color: Colors.white,
-                    ),
-                borderSide: BorderSide(
-                  color: Colors.transparent,
-                  width: 1,
-                ),
-                borderRadius: 12,
-              ),
-            ),
-            FFButtonWidget(
-              onPressed: () async {
-                await Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => CreateHotelListWidget(),
-                  ),
-                );
-              },
-              text: 'Add Hotel',
-              options: FFButtonOptions(
-                width: 130,
-                height: 40,
-                color: FlutterFlowTheme.of(context).primaryColor,
-                textStyle: FlutterFlowTheme.of(context).subtitle2.override(
-                      fontFamily: 'Lexend Deca',
-                      color: Colors.white,
-                    ),
-                borderSide: BorderSide(
-                  color: Colors.transparent,
-                  width: 1,
-                ),
-                borderRadius: 12,
-              ),
-            ),
-            FFButtonWidget(
-              onPressed: () {
-                print('Button pressed ...');
-              },
-              text: 'Add Stay',
-              options: FFButtonOptions(
-                width: 130,
-                height: 40,
-                color: FlutterFlowTheme.of(context).primaryColor,
-                textStyle: FlutterFlowTheme.of(context).subtitle2.override(
-                      fontFamily: 'Lexend Deca',
-                      color: Colors.white,
-                    ),
-                borderSide: BorderSide(
-                  color: Colors.transparent,
-                  width: 1,
-                ),
-                borderRadius: 12,
-              ),
-            ),
-            FFButtonWidget(
-              onPressed: () {
-                print('Button pressed ...');
-              },
-              text: 'Add Guide',
-              options: FFButtonOptions(
-                width: 130,
-                height: 40,
-                color: FlutterFlowTheme.of(context).primaryColor,
-                textStyle: FlutterFlowTheme.of(context).subtitle2.override(
-                      fontFamily: 'Lexend Deca',
-                      color: Colors.white,
-                    ),
-                borderSide: BorderSide(
-                  color: Colors.transparent,
-                  width: 1,
-                ),
-                borderRadius: 12,
-              ),
-            ),
-            FFButtonWidget(
-              onPressed: () {
-                print('Button pressed ...');
-              },
-              text: 'add vehicle',
-              options: FFButtonOptions(
-                width: 130,
-                height: 40,
-                color: FlutterFlowTheme.of(context).primaryColor,
-                textStyle: FlutterFlowTheme.of(context).subtitle2.override(
-                      fontFamily: 'Lexend Deca',
-                      color: Colors.white,
-                    ),
-                borderSide: BorderSide(
-                  color: Colors.transparent,
-                  width: 1,
-                ),
-                borderRadius: 12,
-              ),
-            ),
-            FFButtonWidget(
-              onPressed: () {
-                print('Button pressed ...');
-              },
-              text: 'add subplace',
-              options: FFButtonOptions(
-                width: 130,
-                height: 40,
-                color: FlutterFlowTheme.of(context).primaryColor,
-                textStyle: FlutterFlowTheme.of(context).subtitle2.override(
-                      fontFamily: 'Lexend Deca',
-                      color: Colors.white,
-                    ),
-                borderSide: BorderSide(
-                  color: Colors.transparent,
-                  width: 1,
-                ),
-                borderRadius: 12,
-              ),
-            ),
-            FFButtonWidget(
-              onPressed: () {
-                print('Button pressed ...');
-              },
-              text: 'add quick map',
-              options: FFButtonOptions(
-                width: 130,
-                height: 40,
-                color: FlutterFlowTheme.of(context).primaryColor,
-                textStyle: FlutterFlowTheme.of(context).subtitle2.override(
-                      fontFamily: 'Lexend Deca',
-                      color: Colors.white,
-                    ),
-                borderSide: BorderSide(
-                  color: Colors.transparent,
-                  width: 1,
-                ),
-                borderRadius: 12,
-              ),
-            ),
-          ],
-        ),
-      ),
+      // drawer: Drawer(
+      //   elevation: 16,
+      //   child: Column(
+      //     mainAxisSize: MainAxisSize.max,
+      //     children: [
+      //       Container(
+      //         width: 100,
+      //         height: 100,
+      //         decoration: BoxDecoration(
+      //           color: Color(0xFFEEEEEE),
+      //         ),
+      //       ),
+      //       FFButtonWidget(
+      //         onPressed: () async {
+      //           await Navigator.push(
+      //             context,
+      //             MaterialPageRoute(
+      //               builder: (context) => ListofplacesWidget(),
+      //             ),
+      //           );
+      //         },
+      //         text: 'Show Places',
+      //         options: FFButtonOptions(
+      //           width: 130,
+      //           height: 40,
+      //           color: FlutterFlowTheme.of(context).primaryColor,
+      //           textStyle: FlutterFlowTheme.of(context).subtitle2.override(
+      //                 fontFamily: 'Lexend Deca',
+      //                 color: Colors.white,
+      //               ),
+      //           borderSide: BorderSide(
+      //             color: Colors.transparent,
+      //             width: 1,
+      //           ),
+      //           borderRadius: 12,
+      //         ),
+      //       ),
+      //       FFButtonWidget(
+      //         onPressed: () async {
+      //           await Navigator.push(
+      //             context,
+      //             MaterialPageRoute(
+      //               builder: (context) => CreaterecordWidget(),
+      //             ),
+      //           );
+      //         },
+      //         text: 'Crate a Place',
+      //         options: FFButtonOptions(
+      //           width: 130,
+      //           height: 40,
+      //           color: FlutterFlowTheme.of(context).primaryColor,
+      //           textStyle: FlutterFlowTheme.of(context).subtitle2.override(
+      //                 fontFamily: 'Lexend Deca',
+      //                 color: Colors.white,
+      //               ),
+      //           borderSide: BorderSide(
+      //             color: Colors.transparent,
+      //             width: 1,
+      //           ),
+      //           borderRadius: 12,
+      //         ),
+      //       ),
+      //       FFButtonWidget(
+      //         onPressed: () async {
+      //           await Navigator.push(
+      //             context,
+      //             MaterialPageRoute(
+      //               builder: (context) => CreateHotelListWidget(),
+      //             ),
+      //           );
+      //         },
+      //         text: 'Add Hotel',
+      //         options: FFButtonOptions(
+      //           width: 130,
+      //           height: 40,
+      //           color: FlutterFlowTheme.of(context).primaryColor,
+      //           textStyle: FlutterFlowTheme.of(context).subtitle2.override(
+      //                 fontFamily: 'Lexend Deca',
+      //                 color: Colors.white,
+      //               ),
+      //           borderSide: BorderSide(
+      //             color: Colors.transparent,
+      //             width: 1,
+      //           ),
+      //           borderRadius: 12,
+      //         ),
+      //       ),
+      //       FFButtonWidget(
+      //         onPressed: () {
+      //           print('Button pressed ...');
+      //         },
+      //         text: 'Add Stay',
+      //         options: FFButtonOptions(
+      //           width: 130,
+      //           height: 40,
+      //           color: FlutterFlowTheme.of(context).primaryColor,
+      //           textStyle: FlutterFlowTheme.of(context).subtitle2.override(
+      //                 fontFamily: 'Lexend Deca',
+      //                 color: Colors.white,
+      //               ),
+      //           borderSide: BorderSide(
+      //             color: Colors.transparent,
+      //             width: 1,
+      //           ),
+      //           borderRadius: 12,
+      //         ),
+      //       ),
+      //       FFButtonWidget(
+      //         onPressed: () {
+      //           print('Button pressed ...');
+      //         },
+      //         text: 'Add Guide',
+      //         options: FFButtonOptions(
+      //           width: 130,
+      //           height: 40,
+      //           color: FlutterFlowTheme.of(context).primaryColor,
+      //           textStyle: FlutterFlowTheme.of(context).subtitle2.override(
+      //                 fontFamily: 'Lexend Deca',
+      //                 color: Colors.white,
+      //               ),
+      //           borderSide: BorderSide(
+      //             color: Colors.transparent,
+      //             width: 1,
+      //           ),
+      //           borderRadius: 12,
+      //         ),
+      //       ),
+      //       FFButtonWidget(
+      //         onPressed: () {
+      //           print('Button pressed ...');
+      //         },
+      //         text: 'add vehicle',
+      //         options: FFButtonOptions(
+      //           width: 130,
+      //           height: 40,
+      //           color: FlutterFlowTheme.of(context).primaryColor,
+      //           textStyle: FlutterFlowTheme.of(context).subtitle2.override(
+      //                 fontFamily: 'Lexend Deca',
+      //                 color: Colors.white,
+      //               ),
+      //           borderSide: BorderSide(
+      //             color: Colors.transparent,
+      //             width: 1,
+      //           ),
+      //           borderRadius: 12,
+      //         ),
+      //       ),
+      //       FFButtonWidget(
+      //         onPressed: () {
+      //           print('Button pressed ...');
+      //         },
+      //         text: 'add subplace',
+      //         options: FFButtonOptions(
+      //           width: 130,
+      //           height: 40,
+      //           color: FlutterFlowTheme.of(context).primaryColor,
+      //           textStyle: FlutterFlowTheme.of(context).subtitle2.override(
+      //                 fontFamily: 'Lexend Deca',
+      //                 color: Colors.white,
+      //               ),
+      //           borderSide: BorderSide(
+      //             color: Colors.transparent,
+      //             width: 1,
+      //           ),
+      //           borderRadius: 12,
+      //         ),
+      //       ),
+      //       FFButtonWidget(
+      //         onPressed: () {
+      //           print('Button pressed ...');
+      //         },
+      //         text: 'add quick map',
+      //         options: FFButtonOptions(
+      //           width: 130,
+      //           height: 40,
+      //           color: FlutterFlowTheme.of(context).primaryColor,
+      //           textStyle: FlutterFlowTheme.of(context).subtitle2.override(
+      //                 fontFamily: 'Lexend Deca',
+      //                 color: Colors.white,
+      //               ),
+      //           borderSide: BorderSide(
+      //             color: Colors.transparent,
+      //             width: 1,
+      //           ),
+      //           borderRadius: 12,
+      //         ),
+      //       ),
+      //     ],
+      //   ),
+      // ),
       body: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.max,
@@ -346,18 +346,18 @@ class _HomePageWidgetState extends State<HomePageWidget>
                     thickness: 2,
                     color: FlutterFlowTheme.of(context).gray200,
                   ),
-                  Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(4, 0, 0, 0),
-                    child: Text(
-                      '4',
-                      style: FlutterFlowTheme.of(context).bodyText2.override(
-                            fontFamily: 'Lexend Deca',
-                            color: Color(0xFF8B97A2),
-                            fontSize: 14,
-                            fontWeight: FontWeight.normal,
-                          ),
-                    ),
-                  ),
+                  // Padding(
+                  //   padding: EdgeInsetsDirectional.fromSTEB(4, 0, 0, 0),
+                  //   child: Text(
+                  //     '4',
+                  //     style: FlutterFlowTheme.of(context).bodyText2.override(
+                  //           fontFamily: 'Lexend Deca',
+                  //           color: Color(0xFF8B97A2),
+                  //           fontSize: 14,
+                  //           fontWeight: FontWeight.normal,
+                  //         ),
+                  //   ),
+                  // ),
                   Container(
                     height: 72,
                     decoration: BoxDecoration(

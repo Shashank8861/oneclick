@@ -54,7 +54,7 @@ class _LoginWidgetState extends State<LoginWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Text(
-                  'TravelBuddy',
+                  'ONE CLICK',
                   textAlign: TextAlign.start,
                   style: FlutterFlowTheme.of(context).bodyText1.override(
                         fontFamily: 'Open Sans',
@@ -304,43 +304,43 @@ class _LoginWidgetState extends State<LoginWidget> {
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(2, 0, 0, 12),
-                    child: FFButtonWidget(
-                      onPressed: () async {
-                        final user = await signInAnonymously(context);
-                        if (user == null) {
-                          return;
-                        }
-                        await Navigator.pushAndRemoveUntil(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                NavBarPage(initialPage: 'homePage'),
-                          ),
-                          (r) => false,
-                        );
-                      },
-                      text: 'Continue as guest',
-                      options: FFButtonOptions(
-                        width: 200,
-                        height: 40,
-                        color: Color(0x00FFFFFF),
-                        textStyle:
-                            FlutterFlowTheme.of(context).subtitle2.override(
-                                  fontFamily: 'Lexend Deca',
-                                  color: Colors.white,
-                                  fontSize: 14,
-                                ),
-                        elevation: 0,
-                        borderSide: BorderSide(
-                          color: Colors.transparent,
-                          width: 1,
-                        ),
-                        borderRadius: 8,
-                      ),
-                    ),
-                  ),
+                  // Padding(
+                  //   padding: EdgeInsetsDirectional.fromSTEB(2, 0, 0, 12),
+                  //   child: FFButtonWidget(
+                  //     onPressed: () async {
+                  //       final user = await signInAnonymously(context);
+                  //       if (user == null) {
+                  //         return;
+                  //       }
+                  //       await Navigator.pushAndRemoveUntil(
+                  //         context,
+                  //         MaterialPageRoute(
+                  //           builder: (context) =>
+                  //               NavBarPage(initialPage: 'homePage'),
+                  //         ),
+                  //         (r) => false,
+                  //       );
+                  //     },
+                  //     text: 'Continue as guest',
+                  //     options: FFButtonOptions(
+                  //       width: 200,
+                  //       height: 40,
+                  //       color: Color(0x00FFFFFF),
+                  //       textStyle:
+                  //           FlutterFlowTheme.of(context).subtitle2.override(
+                  //                 fontFamily: 'Lexend Deca',
+                  //                 color: Colors.white,
+                  //                 fontSize: 14,
+                  //               ),
+                  //       elevation: 0,
+                  //       borderSide: BorderSide(
+                  //         color: Colors.transparent,
+                  //         width: 1,
+                  //       ),
+                  //       borderRadius: 8,
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               ),
             ),

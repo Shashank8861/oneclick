@@ -274,42 +274,42 @@ class _CreatePostWidgetState extends State<CreatePostWidget> {
                       ),
                     ],
                   ),
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      FlutterFlowPlacePicker(
-                        iOSGoogleMapsApiKey: '',
-                        androidGoogleMapsApiKey: '',
-                        webGoogleMapsApiKey: '',
-                        onSelect: (place) =>
-                            setState(() => placePickerValue = place),
-                        defaultText: 'Location',
-                        icon: Icon(
-                          Icons.place,
-                          color: FlutterFlowTheme.of(context).grayIcon,
-                          size: 24,
-                        ),
-                        buttonOptions: FFButtonOptions(
-                          width: 300,
-                          height: 60,
-                          color: Colors.white,
-                          textStyle:
-                              FlutterFlowTheme.of(context).subtitle2.override(
-                                    fontFamily: 'Lexend Deca',
-                                    color: Color(0xFF95A1AC),
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w500,
-                                  ),
-                          borderSide: BorderSide(
-                            color: Color(0xFFDBE2E7),
-                            width: 2,
-                          ),
-                          borderRadius: 8,
-                        ),
-                      ),
-                    ],
-                  ),
+                  // Row(
+                  //   mainAxisSize: MainAxisSize.max,
+                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  //   children: [
+                  //     FlutterFlowPlacePicker(
+                  //       iOSGoogleMapsApiKey: '',
+                  //       androidGoogleMapsApiKey: '',
+                  //       webGoogleMapsApiKey: '',
+                  //       onSelect: (place) =>
+                  //           setState(() => placePickerValue = place),
+                  //       defaultText: 'Location',
+                  //       icon: Icon(
+                  //         Icons.place,
+                  //         color: FlutterFlowTheme.of(context).grayIcon,
+                  //         size: 24,
+                  //       ),
+                  //       buttonOptions: FFButtonOptions(
+                  //         width: 300,
+                  //         height: 60,
+                  //         color: Colors.white,
+                  //         textStyle:
+                  //             FlutterFlowTheme.of(context).subtitle2.override(
+                  //                   fontFamily: 'Lexend Deca',
+                  //                   color: Color(0xFF95A1AC),
+                  //                   fontSize: 16,
+                  //                   fontWeight: FontWeight.w500,
+                  //                 ),
+                  //         borderSide: BorderSide(
+                  //           color: Color(0xFFDBE2E7),
+                  //           width: 2,
+                  //         ),
+                  //         borderRadius: 8,
+                  //       ),
+                  //     ),
+                  //   ],
+                  // ),
                 ],
               ),
             ),

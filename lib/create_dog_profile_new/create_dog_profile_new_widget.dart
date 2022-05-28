@@ -79,7 +79,7 @@ class _CreateDogProfileNewWidgetState extends State<CreateDogProfileNewWidget> {
                     children: [
                       Expanded(
                         child: Text(
-                          'Fill out the form below to help your Freinds',
+                          'Fill out the form below. It will show in your favourite places list',
                           style: FlutterFlowTheme.of(context).bodyText1,
                         ),
                       ),

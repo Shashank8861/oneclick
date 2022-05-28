@@ -53,7 +53,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Text(
-                  'TravelBuddy',
+                  'ONE CLICK',
                   style: FlutterFlowTheme.of(context).bodyText1.override(
                         fontFamily: 'Montserrat',
                         color: Colors.white,
@@ -270,42 +270,42 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(2, 0, 0, 12),
-                    child: FFButtonWidget(
-                      onPressed: () async {
-                        await Navigator.push(
-                          context,
-                          PageTransition(
-                            type: PageTransitionType.fade,
-                            duration: Duration(milliseconds: 200),
-                            reverseDuration: Duration(milliseconds: 200),
-                            child: CreateAccountWidget(),
-                          ),
-                        );
-                      },
-                      text: 'Continue as guest',
-                      options: FFButtonOptions(
-                        width: 200,
-                        height: 40,
-                        color: Color(0x00FFFFFF),
-                        textStyle: FlutterFlowTheme.of(context)
-                            .subtitle2
-                            .override(
-                              fontFamily: 'Lexend Deca',
-                              color:
-                                  FlutterFlowTheme.of(context).secondaryColor,
-                              fontSize: 14,
-                            ),
-                        elevation: 0,
-                        borderSide: BorderSide(
-                          color: Colors.transparent,
-                          width: 1,
-                        ),
-                        borderRadius: 8,
-                      ),
-                    ),
-                  ),
+                  // Padding(
+                  //   padding: EdgeInsetsDirectional.fromSTEB(2, 0, 0, 12),
+                  //   child: FFButtonWidget(
+                  //     onPressed: () async {
+                  //       await Navigator.push(
+                  //         context,
+                  //         PageTransition(
+                  //           type: PageTransitionType.fade,
+                  //           duration: Duration(milliseconds: 200),
+                  //           reverseDuration: Duration(milliseconds: 200),
+                  //           child: CreateAccountWidget(),
+                  //         ),
+                  //       );
+                  //     },
+                  //     text: 'Continue as guest',
+                  //     options: FFButtonOptions(
+                  //       width: 200,
+                  //       height: 40,
+                  //       color: Color(0x00FFFFFF),
+                  //       textStyle: FlutterFlowTheme.of(context)
+                  //           .subtitle2
+                  //           .override(
+                  //             fontFamily: 'Lexend Deca',
+                  //             color:
+                  //                 FlutterFlowTheme.of(context).secondaryColor,
+                  //             fontSize: 14,
+                  //           ),
+                  //       elevation: 0,
+                  //       borderSide: BorderSide(
+                  //         color: Colors.transparent,
+                  //         width: 1,
+                  //       ),
+                  //       borderRadius: 8,
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               ),
             ),
