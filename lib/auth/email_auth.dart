@@ -6,7 +6,12 @@ import 'auth_util.dart';
 Future<User> signInWithEmail(
     BuildContext context, String email, String password) async {
   final signInFunc = () => FirebaseAuth.instance
-      .signInWithEmailAndPassword(email: email.trim(), password: password);
+          .signInWithEmailAndPassword(email: email.trim(), password: password)
+          .then((result) {
+        print(result);
+      }).catchError((error) {
+        print('something' + error);
+      });
   return signInOrCreateAccount(context, signInFunc);
 }
 
